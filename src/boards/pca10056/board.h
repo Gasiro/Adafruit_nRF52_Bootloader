@@ -35,7 +35,9 @@
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
-#define BUTTONS_NUMBER      0
+#define BUTTONS_NUMBER      2
+#define BUTTON_1            _PINNUM(0, 4)  // Extra_LED_Color1
+#define BUTTON_2            _PINNUM(0, 12) // Extra_LED_Color2
 #define BUTTON_PULL         NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
