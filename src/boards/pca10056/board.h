@@ -28,24 +28,21 @@
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
-#define LEDS_NUMBER         2
-#define LED_PRIMARY_PIN     13
-#define LED_SECONDARY_PIN   14
+#define LEDS_NUMBER         1
+#define LED_PRIMARY_PIN _PINNUM(1, 4) // Green
 #define LED_STATE_ON        0
 
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
-#define BUTTONS_NUMBER      2
-#define BUTTON_1            11
-#define BUTTON_2            12
+#define BUTTONS_NUMBER      0
 #define BUTTON_PULL         NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER    "Nordic"
-#define BLEDIS_MODEL           "PCA10056"
+#define BLEDIS_MANUFACTURER    "BondDesign"
+#define BLEDIS_MODEL           "Vam05 BLE Keyboard"
 
 //--------------------------------------------------------------------+
 // USB
@@ -56,8 +53,8 @@
 #define USB_DESC_UF2_PID       0x00DA
 #define USB_DESC_CDC_ONLY_PID  0x00DA
 
-#define UF2_PRODUCT_NAME    "Nordic nRF52840 DK"
-#define UF2_BOARD_ID        "nRF52840-pca10056-v1"
-#define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-DK"
+#define UF2_PRODUCT_NAME    "Vam05 BLE Keyboard"
+#define UF2_BOARD_ID        "Vam05-BLE-1.0"
+#define UF2_INDEX_URL       "https://github.com/Gasiro/VAM05"
 
 #endif // PCA10056_H
