@@ -29,7 +29,7 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER         1
-#define LED_PRIMARY_PIN _PINNUM(1, 4) // Green
+#define LED_PRIMARY_PIN _PINNUM(1, 4) //  Green
 #define LED_STATE_ON        0
 
 /*------------------------------------------------------------------*/
